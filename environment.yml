@@ -1,0 +1,10 @@
+name: bar_chart_race
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas=2.3
+  - openpyxl=3.1
+  - plotly=6.3
+  - pip:
+    - raceplotly==0.1.7
